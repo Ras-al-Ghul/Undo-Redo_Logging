@@ -17,9 +17,9 @@ There will be 9 such cases given these transactions (T2 is the longest with 9 ac
 For each log message, the logs also contain the `hard disk copies` of the variable values in each line of the message.  
 
 The log messages are of four types:  
-1. \<START TNUM\>  
-2. <TNUM, varName, oldvalifundo/newvalifredo>  
-3. <COMMIT TNUM>  
+1. `\<START TNUM\>`  
+2. `\<TNUM, varName, oldvalifundo/newvalifredo\>`  
+3. `\<COMMIT TNUM\>`  
 
 Care has also been taken to flush the logs from the buffers at appropriate times.  
 
